@@ -21,7 +21,7 @@ namespace PractWork7
         private void registerButton_Click(object sender, EventArgs e)
         {
             string fileName = @"C:\Temp\logins.dat"; // путь к файлу (не знал как сделать путь относительно проекта)
-            bool coincidence = false; // логическая переменная наличия совпадений с логином
+            bool match = false; // логическая переменная наличия совпадений с логином
             using (BinaryReader reader = new BinaryReader(File.Open(fileName, FileMode.OpenOrCreate))) // поток чтения файла
             {
                 while (reader.PeekChar() > -1) // цикл по количеству строк в файле
@@ -30,13 +30,13 @@ namespace PractWork7
                     var dataStringArray = clogin.Split(','); // разделяем данные пользователя запятой и заносим в массив
                     if (loginTextBox.Text == dataStringArray[0]) // если логин и строка совпадают
                     {
-                        coincidence = true; // пишем о наличии совпадения
+                        match = true; // пишем о наличии совпадения
                     }
                 }
             }
             using (BinaryWriter writer = new BinaryWriter(File.Open(fileName, FileMode.Append))) // поток записи в файл
             {
-                if (coincidence == true) // если есть совпадения с логином
+                if (match == true) // если есть совпадения с логином
                 {
                     MessageBox.Show("Такой логин уже существует"); // вывод сообщения о наличии совпадений
                 }
