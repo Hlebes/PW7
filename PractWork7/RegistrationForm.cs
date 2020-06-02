@@ -27,7 +27,8 @@ namespace PractWork7
                 while (reader.PeekChar() > -1) // цикл по количеству строк в файле
                 {
                     string clogin = reader.ReadString(); // переменная, присваивающая читаемую строку 
-                    if (clogin == $"||{loginTextBox.Text}||\n") // если логин и строка совпадают
+                    var dataStringArray = clogin.Split(','); // разделяем данные пользователя запятой и заносим в массив
+                    if (loginTextBox.Text == dataStringArray[0]) // если логин и строка совпадают
                     {
                         coincidence = true; // пишем о наличии совпадения
                     }
@@ -42,9 +43,7 @@ namespace PractWork7
                 else // иначе
                 {
                     // выводим данные в файл (|| - разделители для распознавания логина)
-                    writer.Write($"||{loginTextBox.Text}||\n");
-                    writer.Write($"{passTextBox.Text}\n");
-                    writer.Write($"{ageTextBox.Text}\n");
+                    writer.Write($"{loginTextBox.Text},{passTextBox.Text},{ageTextBox.Text}\n");
                 }
             }
         }
