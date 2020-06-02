@@ -1,0 +1,14 @@
+D:\VisualStudio\College\C#\Forms\PractWork7\PractWork7\bin\Debug\PractWork7.exe.config
+D:\VisualStudio\College\C#\Forms\PractWork7\PractWork7\bin\Debug\PractWork7.exe
+D:\VisualStudio\College\C#\Forms\PractWork7\PractWork7\bin\Debug\PractWork7.pdb
+D:\VisualStudio\College\C#\Forms\PractWork7\PractWork7\obj\Debug\PractWork7.csprojAssemblyReference.cache
+D:\VisualStudio\College\C#\Forms\PractWork7\PractWork7\obj\Debug\PractWork7.MainForm.resources
+D:\VisualStudio\College\C#\Forms\PractWork7\PractWork7\obj\Debug\PractWork7.Properties.Resources.resources
+D:\VisualStudio\College\C#\Forms\PractWork7\PractWork7\obj\Debug\PractWork7.SearchForm.resources
+D:\VisualStudio\College\C#\Forms\PractWork7\PractWork7\obj\Debug\PractWork7.csproj.GenerateResource.cache
+D:\VisualStudio\College\C#\Forms\PractWork7\PractWork7\obj\Debug\PractWork7.csproj.CoreCompileInputs.cache
+D:\VisualStudio\College\C#\Forms\PractWork7\PractWork7\obj\Debug\PractWork7.exe
+D:\VisualStudio\College\C#\Forms\PractWork7\PractWork7\obj\Debug\PractWork7.pdb
+D:\VisualStudio\College\C#\Forms\PractWork7\PractWork7\obj\Debug\PractWork7.ShoppingForm.resources
+D:\VisualStudio\College\C#\Forms\PractWork7\PractWork7\obj\Debug\PractWork7.NotesForm.resources
+D:\VisualStudio\College\C#\Forms\PractWork7\PractWork7\obj\Debug\PractWork7.RegistrationForm.resources
